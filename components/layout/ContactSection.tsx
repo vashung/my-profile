@@ -14,7 +14,7 @@ const ContactSection = () => {
           <h2 className="text-[#57595a] text-5xl font-bold mb-4">Lets Contact</h2>
           <p className="text-[#afb1b3] mb-3 max-w-md">
             {""} I m currently looking for new opportunities mY inbox is always
-            open. Whether you have a question or just want to say hi, I'll try
+            open. Whether you have a question or just want to say hi, I&apos;ll try
             my best to get back to you.
           </p>
 
@@ -75,7 +75,6 @@ const ContactSection = () => {
               </label>
               <textarea
                 name="message"
-                type="text"
                 id="message"
                 required
                 className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5 "
