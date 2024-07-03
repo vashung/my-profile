@@ -9,7 +9,7 @@ const projectsData = [
     id: 1,
     title: "React Portfolio Website",
     description: "Projection 1 Description",
-    image: "./images/projects/1.png",
+    image: "/images/projects/1.png",
     gitUrl: "/",
     previewUrl: "/",
     tag: ["All", "Web"],
@@ -19,7 +19,7 @@ const projectsData = [
     id: 2,
     title: "Ecommerce Website",
     description: "Projection 1 Description",
-    image: "./images/projects/2.png",
+    image: "/images/projects/2.png",
     gitUrl: "/",
     previewUrl: "/",
     tag: ["All", "Web"],
@@ -28,7 +28,7 @@ const projectsData = [
     id: 3,
     title: "Mobile App",
     description: "Projection 1 Description",
-    image: "./images/projects/3.png",
+    image: "/images/projects/3.png",
     gitUrl: "/",
     previewUrl: "/",
     tag: ["All", "Mobile"],
@@ -49,13 +49,12 @@ const ProjectSection = () => {
 
   return (
     <section id="project">
-      <hr className="border-2 border-purple-500"></hr>
+      <hr className="m-auto w-52 border-2 border-purple-500"></hr>
       <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
 
         <h2 className="text-white text-center mt-4 text-5xl font-bold mb-4">My Projects</h2>
       </div>
       
-
       <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
         <ProjectTag
           onClick={handleTagChange}
@@ -91,5 +90,5 @@ const ProjectSection = () => {
     </section>
   );
 };
-
+  
 export default ProjectSection;

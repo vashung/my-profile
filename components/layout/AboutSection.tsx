@@ -70,12 +70,12 @@ const AboutSection = () => {
 
   return (
     <section id="about">
-      <hr className="border-1 border-purple-500"></hr>
+      <hr className="m-auto items-center border-1 border-purple-500 w-52"></hr>
       <div className="md:grid md:grid-cols-2 gap-4 items-center py-8 px-4 xl:gap-8 sm:py-16">
         <Image
-          src={"./images/profile.png"}
+          src={"/images/profile.png"}
           width={200}
-          height={200}
+          height={200}  
           alt="about me"
         />
 
