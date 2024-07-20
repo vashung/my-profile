@@ -15,7 +15,7 @@ const HeroSection = () => {
           className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
         >
           <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold">
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-300">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-300 s text-5xl font-bold mb-4s">
               Hello, I&apos;m{" "}
             </span>{" "}
             <br />
@@ -40,7 +40,7 @@ const HeroSection = () => {
             I am a Software Engineer
           </p>
 
-          <div>
+          {/* <div>
             <button className="px-6 py-3 mr-4 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-500 via-green-500 to-green-500 hover:bg-slate-200 text-white  mt-3 ">
               Hire Me
             </button>
@@ -50,7 +50,7 @@ const HeroSection = () => {
                 Download CV
               </span>
             </button>
-          </div>
+          </div> */}
         </motion.div>
 
         <motion.div className="col-span-4 place-self-center mt-4 lg:mt-0">

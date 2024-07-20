@@ -72,9 +72,9 @@ const AboutSection = () => {
     <section id="about">
       <hr className="m-auto items-center border-1 border-purple-500 w-52"></hr>
       <div className="md:grid md:grid-cols-2 gap-4 items-center py-8 px-4 xl:gap-8 sm:py-16">
-        <Image
+        <Image className=""
           src={"/images/profile.png"}
-          width={200}
+          width={400}
           height={200}  
           alt="about me"
         />
@@ -82,7 +82,7 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-white text-5xl font-bold mb-4">About Me</h2>
           <p className="text-balance md:text-lg">
-            Hello! I&apos;m Shungz, a results-driven software engineer with two years of experience specializing in 
+            Hello! I&apos;m Vashung Muilung, a results-driven software engineer with two years of experience specializing in 
           .   I&apos;m passionate about creating efficient solutions and thrive in 
           collaborative environments. Explore my portfolio to see my work and let&apos;s discuss how I can contribute to 
           your team&apos;s success.
