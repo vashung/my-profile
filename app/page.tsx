@@ -3,6 +3,7 @@ import AboutSection from "@/components/layout/AboutSection";
 import ContactSection from "@/components/layout/ContactSection";
 import ProjectSection from "@/components/layout/ProjectSection";
 import NavBar from "@/components/NavBar";
+import GoTopButton from "@/components/GoTopButton"
 import Image from "next/image";
 import { scroll } from "framer-motion";
 
@@ -32,6 +33,7 @@ export default function Home() {
         <AboutSection />
         <ProjectSection />
         <ContactSection />
+        <GoTopButton />
       </div>
 
       {/* <section id="project" className="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-3"> 

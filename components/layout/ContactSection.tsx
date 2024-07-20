@@ -71,7 +71,7 @@ const ContactSection = () => {
                 typeof="text"
                 className="text-white block mb-2 text-sm font-medium"
               >
-                Subject
+                Content
               </label>
               <textarea
                 name="message"
