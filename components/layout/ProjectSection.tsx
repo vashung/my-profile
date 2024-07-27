@@ -3,13 +3,16 @@
 import React, { useState } from "react";
 import ProjectCard from "../ProjectCard";
 import ProjectTag from "../ProjectTag";
+import project1 from "../../public/images/projects/1.png"
+import project2 from "../../public/images/projects/2.png"
+import project3 from "../../public/images/projects/3.png"
 
 const projectsData = [
   {
     id: 1,
     title: "React Portfolio Website",
     description: "Projection 1 Description",
-    image: "/images/projects/1.png",
+    image: project1 ,
     gitUrl: "/",
     previewUrl: "/",
     tag: ["All", "Web"],
@@ -19,7 +22,7 @@ const projectsData = [
     id: 2,
     title: "Ecommerce Website",
     description: "Projection 1 Description",
-    image: "/images/projects/2.png",
+    image: project2,
     gitUrl: "/",
     previewUrl: "/",
     tag: ["All", "Web"],
@@ -28,7 +31,7 @@ const projectsData = [
     id: 3,
     title: "Mobile App",
     description: "Projection 1 Description",
-    image: "/images/projects/3.png",
+    image: project3,
     gitUrl: "/",
     previewUrl: "/",
     tag: ["All", "Mobile"],

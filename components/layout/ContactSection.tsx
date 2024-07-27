@@ -1,3 +1,5 @@
+
+'use client'
 import React from "react";
 import GithubIcon from "../../public/images/github-icon.svg";
 import LinkedInIcon from "../../public/images/linkedin-icon.svg";
@@ -19,13 +21,13 @@ const ContactSection = () => {
           </p>
 
           <div className="socials flex flex-row gap-2">
-            <Link href="github.com">
+            <button onClick = {() => window.open("https://github.com/vashung")}>
               <Image src={GithubIcon} alt="github Icon" />
-            </Link>
+            </button>
 
-            <Link href="linkedin.com">
+            <button onClick={ () => window.open("https://www.linkedin.com/in/vashung-muilung/")} >
               <Image src={LinkedInIcon} alt="linkedIn Icon" />
-            </Link>
+            </button>
           </div>
         </div>
 
