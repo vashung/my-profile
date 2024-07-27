@@ -5,6 +5,8 @@ import Image from "next/image";
 import TabButton from "../TabButton";
 import { title } from "process";
 
+import profileImage from '../../public/images/profile.png'
+
 
 const TAB_DATA  = [
   {
@@ -73,7 +75,7 @@ const AboutSection = () => {
       <hr className="m-auto items-center border-1 border-purple-500 w-52"></hr>
       <div className="md:grid md:grid-cols-2 gap-4 items-center py-8 px-4 xl:gap-8 sm:py-16">
         <Image className=""
-          src={"/images/profile.png"}
+          src={profileImage}
           width={400}
           height={200}  
           alt="about me"
